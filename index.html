@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <!-- <link rel="shortcut icon" href="./favicon.ico"/> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="Web site created using create-react-app"/>
+    <!-- <link rel="apple-touch-icon" href="favicon.png"/> -->
+    <link rel="manifest" href="./manifest.json"/>
+    <title>Han Wang's Homepage</title>
+    <link href="static/css/core.css" rel="stylesheet">
+    <link href="static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+<body>
+<div id="root">
+    <div id="container">
+        <div id="nav-bar">
+            <div id="avatar">
+                <img src="./static/media/avatar.jpg">
+            </div>
+            <p id="name">Han Wang</p>
+            <ul id="nav_list">
+                <li class="nav ripple" onclick="switchPage('home');closeNav();"><a>Home</a></li>
+                <!-- <li class="nav ripple" onclick="switchPage('research');closeNav();"><a>Research</a></li> -->
+                <li class="nav ripple" onclick="switchPage('publications');closeNav();"><a>Publications</a></li>
+                <li class="nav ripple" onclick="switchPage('contact');closeNav();"><a>Contact</a></li>
+                <li class="nav ripple" onclick="switchPage('life');closeNav();"><a>Life</a></li>
+                <li class="nav ripple"><a href="./static/media/CV_han.pdf">CV</a></li>
+            </ul>
+            <div style="flex: 1"></div>
+            <p id="nav-icon-list">
+                <span class="ripple">
+                    <a class="nav-icon"
+                       title="Google Scholar"
+                       href="https://scholar.google.com/citations?hl=en&user=3nmBrYsAAAAJ"
+                       style="background-image: url('https://user-images.githubusercontent.com/556268/96353342-3f386c80-10cb-11eb-9865-0c40dfe6ab8b.png')"></a>
+                </span>
+
+                <span class="ripple">
+                    <a class="nav-icon material-icons notranslate"
+                       title="Email: wanghanaviva@zju.edu.cn"
+                       href="mailto:wanghanaviva@zju.edu.cn">email</a>
+                </span>
+
+                <span class="ripple">
+                    <a class="nav-icon"
+                       title="Github"
+                       style="background-image: url('./static/media/github.png'); background-color: white;"
+                       href="https://github.com/wanghanhan"></a>
+                </span>
+            </p>
+            <div id="menu-icon" class="ripple" onclick="toggleNav()">
+                <span class="material-icons">menu</span>
+            </div>
+        </div>
+        <iframe id="content">
+        </iframe>
+        <div id="backdrop" onclick="closeNav()"></div>
+    </div>
+</div>
+<script src="static/js/page_manager.js"></script>
+<script>
+    const nav_list = document.getElementById('nav_list');
+    const backdrop = document.getElementById('backdrop');
+    function toggleNav() {
+        if (nav_list.classList.contains('expand')) nav_list.classList.remove('expand');
+        else nav_list.classList.add('expand');
+
+        if (backdrop.classList.contains('expand')) backdrop.classList.remove('expand');
+        else backdrop.classList.add('expand');
+    }
+    function closeNav() {
+        if (nav_list.classList.contains('expand')) nav_list.classList.remove('expand');
+        if (backdrop.classList.contains('expand')) backdrop.classList.remove('expand');
+    }
+</script>
+</body>
+</html>

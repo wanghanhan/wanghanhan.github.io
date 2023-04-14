@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Han Wang's Homepage</title>
+    <link href="./static/css/core.css" rel="stylesheet">
+    <link href="./static/css/page.css" rel="stylesheet">
+    <link href="./static/css/publication.css" rel="stylesheet">
+    <script src="static/js/core.js"></script>
+    <script src="static/js/publications.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+<body>
+<div id="root">
+    <section>
+        <h2>Han Wang (王涵)</h2>
+        <h4>Ph.D. candidate, State Key Lab of CAD&CG, Zhejiang University</h4>
+        <p>
+            I am currently a third-year Ph.D. candidate under
+            <a href="https://person.zju.edu.cn/0090040" target="_blank">Prof. Hai Lin</a>'s supervision in
+            State Key Lab of CAD&CG,
+            College of Computer Science,
+            Zhejiang University.
+        </p>
+        <p>
+            My research focuses on  (1) fast numerical algorithms based on physical and algebra theories, (2) isogeometric analysis for unifying geometric design and electromagnetic simulation, and (3) efficient shape optimization assisted by machine learning. The central theme driving my research is the pursuit of integration of computer-aided design (CAD) and computational electromagnetism (CEM).
+        </p>
+    </section>
+    <div class="columns">
+        <div class="left-col">
+            <section id="featuredProject">
+                <h4>Featured Projects</h4>
+            </section>
+        </div>
+        <div class="right-col">
+            <section>
+                <h4>Education</h4>
+                <ul>
+                    <li>
+                        <strong>Ph.D. in Computer Science</strong><br>
+                        Sep. 2019 -- June 2024 (expected), Zhejiang University
+                    </li>
+                    <li>
+                        <strong>B.Eng. in Software Engineering</strong><br>
+                        Sep. 2015 -- June 2019, Wuhan University
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Awards</h4>
+                <h5>2022</h5>
+                <ul>
+                    <li>
+                        <strong>Outstanding Graduate Award</strong><br>
+                        Zhejiang University
+                    </li>
+                </ul>
+                <h5>2021</h5>
+                <ul>
+                    <li>
+                        <strong>Third Price</strong><br>
+                        Student Modeling Contest in 2021 ACES Symposium
+                    </li>
+                    <li>
+                        <strong>Outstanding Graduate Cadre Award</strong><br>
+                        Zhejiang University
+                    </li>
+                    <li>
+                        <strong>Outstanding Graduate Award</strong><br>
+                        Zhejiang University
+                    </li>
+                </ul>
+                <h5>2020</h5>
+                <ul>
+                    <li>
+                        <strong>Outstanding Graduate Award</strong><br>
+                        Zhejiang University
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Research Activities</h4>
+                <ul>
+                    <li><strong>Reviewer</strong> for IEEE AP-S/URSI 2023</li>
+                    <li><strong>Reviewer</strong> for IEEE AP-S/URSI 2022</li>
+                    <li><strong>Presentation</strong> at IEEE AP-S/URSI 2021</li>
+                    <li><strong>Presentation</strong> at IEEE AP-S/URSI 2020</li>
+                    <li><strong>Presentation</strong> at IEEE ACES 2019</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</div>
+<script>
+    renderPublications(
+        document.getElementById('featuredProject'),
+        pub => pub.markers.includes('featured')
+    )
+</script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "template",
+    "title": "Template Title: string",
+    "author": ["string", "list"],
+    "journal": "null or undefined: none | string: the journal",
+    "proceedings": "null or undefined: none | string: the proceedings",
+    "year": 2020,
+    "teaser": "null or undefined: none | empty string: static/publications/{id}/teaser.png | string: specific path",
+    "paper": "null or undefined: none | empty string: static/publications/{id}/{id}.pdf | string: specific path",
+    "system": "empty string or null or undefined: none | string: the url",
+    "video": "empty string or null or undefined: none | string: the youtube video id",
+    "citation": "empty string or null or undefined: none | string: the bib",
+    "source": "empty string or null or undefined: none | string: url of the open source",
+    "abstract": "empty string or null or undefined: none | string: the abstract",
+    "note": "empty string or null or undefined: none | string: anything to mention",
+    "doi": "empty string or null or undefined: none | string: doi",
+    "markers": ["hide", "featured", "conditional acceptance", "best paper", "honorable mention"]
+  },
+  {
+    "id": "iso",
+    "title": "Isogeometric analysis for the scattering of NURBS surfaces with coinciding knots",
+    "author": [
+      "Han Wang",
+      "Ruoming Zhang",
+      "Yuhao Shen",
+      "Ce Ding",
+      "Yuechen Zhao",
+      "Hai Lin"
+    ],
+    "journal": "2023 IEEE International Symposium on Antennas and Propagation and USNC-URSI Radio Science Meeting (APS/URSI)",
+    "proceedings": "",
+    "year": 2023,
+    "teaser": "",
+    "markers": [
+      "accept",
+      "featured"
+    ]
+  },
+  {
+    "id": "fegwo",
+    "title": "A quasi-optimal shape design method for electromagnetic scatterers based on NURBS surfaces and filter-enhanced GWO",
+    "author": [
+      "Han Wang",
+      "Qiang Zou",
+      "Hai Lin"
+    ],
+    "journal": "IEEE Transactions on Antennas and Propagation",
+    "proceedings": "",
+    "year": 2023,
+    "teaser": "",
+    "markers": [
+      "featured",
+      "early access"
+    ]
+  },
+  {
+    "id": "svsefie",
+    "title": "Enhanced solution to the surface-volume-surface EFIE for arbitrary metal-dielectric composite objects",
+    "author": [
+      "Han Wang",
+      "Mingjie Pang",
+      "Hai Lin"
+    ],
+    "journal": "Frontiers of Information Technology & Electronic Engineering",
+    "proceedings": "",
+    "year": 2022,
+    "teaser": "",
+    "markers": [
+      "featured"
+    ]
+  },
+  {
+    "id": "avsie",
+    "title": "Accuracy improvement of the algebraic fast methods for the volume-surface integral equation",
+    "author": [
+      "Han Wang",
+      "Mingjie Pang",
+      "Hai Lin"
+    ],
+    "journal": "2021 IEEE International Symposium on Antennas and Propagation and USNC-URSI Radio Science Meeting (APS/URSI)",
+    "proceedings": "",
+    "year": 2021,
+    "teaser": "",
+    "markers": [
+    ]
+  },
+  {
+    "id": "epa",
+    "title": "Solving the scattering of combined conductor-dielectric bodies based on EPA",
+    "author": [
+      "Han Wang",
+      "Nan Wu",
+      "Hai Lin"
+    ],
+    "journal": "2020 IEEE International Symposium on Antennas and Propagation and USNC-URSI Radio Science Meeting (APS/URSI)",
+    "proceedings": "",
+    "year": 2020,
+    "teaser": "",
+    "markers": [
+    ]
+  },
+  {
+    "id": "shapedef",
+    "title": "Electromagnetic characteristics optimization based on shape deformation",
+    "author": [
+      "Han Wang",
+      "Chunbei Luo",
+      "Hai Lin"
+    ],
+    "journal": "2019 International Applied Computational Electromagnetics Society Symposium-China (ACES)",
+    "proceedings": "",
+    "year": 2019,
+    "teaser": "",
+    "markers": [
+    ]
+  },
+  {
+    "id": "gpupc",
+    "title": "A GPU-based radio wave propagation prediction with progressive processing on point cloud",
+    "author": [
+      "Mingjie Pang",
+      "Han Wang",
+      "Hai Lin"
+    ],
+    "journal": "IEEE Antennas and Wireless Propagation Letters",
+    "proceedings": "",
+    "year": 2021,
+    "teaser": "",
+    "markers": [
+    ]
+  }
+]
