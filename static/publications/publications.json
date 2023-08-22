@@ -18,6 +18,23 @@
     "markers": ["hide", "featured", "conditional acceptance", "best paper", "honorable mention"]
   },
   {
+    "id": "dgiga",
+    "title": "Isogeometric analysis of electric field integral equation on multi-patch NURBS surfaces with discontinuous Galerkin",
+    "author": [
+      "Han Wang",
+      "Ruoming Zhang",
+      "Hai Lin"
+    ],
+    "journal": "IEEE Transactions on Electromagnetic Compatibility",
+    "proceedings": "",
+    "year": 2023,
+    "teaser": "",
+    "markers": [
+      "conditional acceptance",
+      "featured"
+    ]
+  },
+  {
     "id": "iso",
     "title": "Isogeometric analysis for the scattering of NURBS surfaces with coinciding knots",
     "author": [
@@ -32,6 +49,7 @@
     "proceedings": "",
     "year": 2023,
     "teaser": "",
+    "paper":"",
     "markers": [
       "accept",
       "featured"
@@ -49,9 +67,9 @@
     "proceedings": "",
     "year": 2023,
     "teaser": "",
+    "paper":"",
     "markers": [
-      "featured",
-      "early access"
+      "featured"
     ]
   },
   {
@@ -66,6 +84,7 @@
     "proceedings": "",
     "year": 2022,
     "teaser": "",
+    "paper":"",
     "markers": [
       "featured"
     ]
@@ -82,6 +101,7 @@
     "proceedings": "",
     "year": 2021,
     "teaser": "",
+    "paper":"",
     "markers": [
     ]
   },
@@ -97,6 +117,7 @@
     "proceedings": "",
     "year": 2020,
     "teaser": "",
+    "paper":"",
     "markers": [
     ]
   },
@@ -112,6 +133,7 @@
     "proceedings": "",
     "year": 2019,
     "teaser": "",
+    "paper":"",
     "markers": [
     ]
   },
